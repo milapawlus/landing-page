@@ -1,0 +1,44 @@
+body {
+    position: relative;
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+.nav-button {
+    align-self: center;
+    
+}
+
+ h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    color: #2F281E;
+ }
