@@ -4,8 +4,9 @@ body {
 
 .container {
     position: relative;
-    width: 97%;
-    left: 3%;
+    width: 88%;
+    left: 6%;
+    right: 6%;
     top: 50%;
 }
 
@@ -61,7 +62,7 @@ nav {
     font-size: 16px;
     border-radius: 4px;
     border: none;
-    background: #FF9900;
+    background-color: #FF9900;
     color: white;
 }
 
