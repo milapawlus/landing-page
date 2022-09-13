@@ -1,44 +1,148 @@
 body {
     position: relative;
-
 }
 
 .container {
     position: relative;
-    display: flex;
+    width: 97%;
+    left: 3%;
+    top: 50%;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    
 }
+
+.logo {
+    align-self: center;
+}
+
 .nav-menu {
     display: flex;
     justify-content: space-around;
     width: 50%;
-    
 }
 
 .nav-options {
     display: flex;
     justify-content: space-between;
     width: 50%;
-    
 }
 
 .nav-button {
     align-self: center;
-    
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
 }
 
- h3 {
+.btn-white {
+    position: absolute;
+    width: 102px;
+    height: 46px;
+    border: 1px solid #BCD0E5;
+    background-color: white;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #173A56;
+}
+
+.btn-orange {
+    width: 110px;
+    height: 46px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background: #FF9900;
+    color: white;
+}
+
+h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    /* identical to box height, or 200% */
     color: #2F281E;
+ }
+
+ .header-container {
+    display: flex;
+    position: relative;
+    width: 80%;
+ }
+
+ .header-leftside {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+ }
+
+ .header-rightside {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+ }
+
+ h1 {
+    width: 518px;
+    height: 108px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #2F281E;
+ }
+
+ .header-text {
+    width: 458px;
+    height: 95px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #544837;
+ }
+
+ .header-btn {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+ }
+
+ .btn-orangeH {
+    width: 175px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    background: #FF9900;
+ }
+
+ .btn-whiteH {
+    width: 161px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    text-decoration-line: underline;
+    color: #FF9900;
+    background-color: white;
+ }
+
+ .image-header {
+    display: flex;
+    width: 605px;
+    height: 496px;
  }
