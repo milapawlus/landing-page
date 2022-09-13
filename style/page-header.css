@@ -1,20 +1,27 @@
 .header-container {
     display: flex;
     position: relative;
-    width: 80%;
+    width: 100%;
+    top: 50px;
  }
 
  .header-leftside {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 50%;
  }
 
  .header-rightside {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     width: 50%;
+ }
+
+ .header-leftside-main {
+    display: flex;
+    flex-direction: column;
  }
 
  h1 {
