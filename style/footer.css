@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft-details {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #544837;
+}
+
+.ft-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ft-rect {
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+}
+
+
