@@ -24,6 +24,7 @@
     font-weight: 500;
     font-size: 16px;
     color: #544837;
+    width: 80%;
 }
 
 .topic-main-heading {
@@ -39,4 +40,15 @@
     font-weight: 700;
     font-size: 30px;
     color: #2F281E;
+}
+
+.topic-info-icon {
+    display: flex;
+    width: 100%;
+}
+
+.topic-icon-img {
+    align-self: center;
+    position: relative;
+    right: 20px;
 }
